@@ -6,9 +6,16 @@ if (is_ajax()) {
 
         if(isset($_GET['q'])&&!empty($_GET['q']))
         {
+
             require_once "connect_database.php";
             $list = array();
-            $stmt = $db->query('SELECT Id,Firstname,Lastname FROM tblusers');
+            $search=$_GET['q'];
+            $sql='SELECT u.Id,u.Firstname,u.Lastname 
+                                FROM tblusers as u 
+                                WHERE u.Firstname LIKE ? or u.Lastname LIKE ? 
+                                or u.Email LIKE ?';
+            $stmt = $stmt= $db->prepare($sql);
+            $stmt->execute(['%'.$search.'%','%'.$search.'%','%'.$search.'%']);
             while ($row = $stmt->fetch()) {
                 $list[] = array(
                     'id' => $row['Id'],

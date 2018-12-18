@@ -25,8 +25,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="100">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -35,11 +35,9 @@
       <file leaf-file-name="connect_database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connect_database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-              <folding>
-                <marker date="1545067200248" expanded="true" signature="44:76" ph="..." />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,12 +55,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autocompleter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="autocompleter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/autocompleter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="8" column="27" selection-start-line="7" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="336">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autocomplete.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/autocomplete.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_autocompleter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax_autocompleter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <marker date="1545158378638" expanded="true" signature="262:478" ph="SELECT u.Id,... tblusers" />
+                <marker date="1545158378638" expanded="true" signature="527:683" ph="SELECT u.Id,... tblusers" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,9 +91,11 @@
       <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="312">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <marker date="1545067622312" expanded="true" signature="702:813" ph="INSERT INTO `tblusers`... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,14 +105,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/autocompleter.js" />
-        <option value="$PROJECT_DIR$/ajax_autocompleter.php" />
         <option value="$PROJECT_DIR$/_footer.php" />
         <option value="$PROJECT_DIR$/connection_database.php" />
         <option value="$PROJECT_DIR$/create.php" />
         <option value="$PROJECT_DIR$/connect_database.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/ajax_autocompleter.php" />
+        <option value="$PROJECT_DIR$/js/autocompleter.js" />
+        <option value="$PROJECT_DIR$/css/autocomplete.css" />
       </list>
     </option>
   </component>
@@ -163,7 +187,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,15 +248,15 @@
       <workItem from="1545065864171" duration="6072000" />
       <workItem from="1545118600100" duration="2589000" />
       <workItem from="1545139437076" duration="2074000" />
-      <workItem from="1545150563475" duration="119000" />
+      <workItem from="1545150563475" duration="5016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10854000" />
+    <option name="totallyTimeSpent" value="15751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1522694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -282,9 +306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <marker date="1545067200248" expanded="true" signature="44:76" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -303,7 +325,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding />
+          <folding>
+            <marker date="1545067622312" expanded="true" signature="702:813" ph="INSERT INTO `tblusers`... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -320,7 +344,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding />
+          <folding>
+            <marker date="1545067622312" expanded="true" signature="702:813" ph="INSERT INTO `tblusers`... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -347,9 +373,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <marker date="1545067200248" expanded="true" signature="44:76" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -374,7 +398,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax_autocompleter.php" />
     <entry file="file://$PROJECT_DIR$/js/autocompleter.js" />
-    <entry file="file://$PROJECT_DIR$/ajax_autocompleter.php" />
     <entry file="file://$PROJECT_DIR$/_footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -385,27 +408,38 @@
     <entry file="file://$PROJECT_DIR$/connection_database.php" />
     <entry file="file://$PROJECT_DIR$/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="312">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <marker date="1545067622312" expanded="true" signature="702:813" ph="INSERT INTO `tblusers`... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connect_database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding>
-            <marker date="1545067200248" expanded="true" signature="44:76" ph="..." />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="100">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_autocompleter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <marker date="1545158378638" expanded="true" signature="262:478" ph="SELECT u.Id,... tblusers" />
+            <marker date="1545158378638" expanded="true" signature="527:683" ph="SELECT u.Id,... tblusers" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -422,8 +456,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/autocompleter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="8" column="27" selection-start-line="7" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="336">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/autocomplete.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
           <folding />
         </state>
       </provider>

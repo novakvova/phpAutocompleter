@@ -2,17 +2,54 @@ window.addEventListener('load',init);
 var activeLI=0;
 function init() {
 
-    
-    
-    $.ajax({
-        type: 'GET',
-        url: '/ajax_autocompleter.php',
-        data: {'q': "Привіт"},
-        success: function(resp) {
-            console.log(resp);
-            //alert(msg);
+
+    var inputSearch = document.getElementById("userInput");
+    inputSearch.onkeyup = function(e) {
+        //console.log(this.value);
+        var text=this.value;
+        if(text.length>1)
+        {
+            $.ajax({
+                type: 'GET',
+                url: '/ajax_autocompleter.php',
+                data: {'q': text},
+                success: function(resp) {
+                    loadDataAutocompleter(resp);
+
+                    //console.log(resp);
+                    //alert(msg);
+                }
+            });
         }
-    });
+    }
+    function loadDataAutocompleter(list) {
+        if(list.length>0) {
+            var ulElem = document.createElement("ul");
+            for (var i = 0; i < list.length; i++) {
+                var liElem = document.createElement("li");
+                var cHtml =
+                    `<img src="images/Сало.jpg" class="img-circle"/>
+                    <a href="#">${list[i].name}</a>`;
+                liElem.innerHTML = cHtml;
+                ulElem.appendChild(liElem);
+            }
+            var parent = document.getElementById("droplistContent");
+            parent.innerHTML = ulElem.innerHTML;
+
+            // if (!parent.classList.contains("showElement")) {
+            //     parent.classList.add("showElement");
+            // }
+        }
+        else
+        {
+            parent.innerHTML = "";
+            // if (parent.classList.contains("showElement")) {
+            //     parent.classList.remove("showElement");
+            // }
+        }
+
+    }
+
     // var str= "Сало, Сало, Цибуля, Хліб, Горілка, Оселедець, Огірок, Подружка(Останя допомога)";
     // var list=str.split(", ");
     // var inputSearch = document.getElementById("userInput");
